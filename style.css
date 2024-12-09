@@ -117,7 +117,7 @@ background-color: yellowgreen;
     transform: translateX(-50%); /* Exactly center the button */
     padding: 15px 25px;  /* Button padding */
     background-color: green; /* Button color */
-    color: white;  /* Text color */
+    color: lightgray;  /* Text color */
     font-size: 18px;  /* Font size */
     font-weight: bold;
     text-decoration: none; /* Remove underline */
@@ -237,7 +237,7 @@ background-color: yellowgreen;
     transform: translateX(-50%); /* Exactly center the button */
     padding: 15px 25px;  /* Button padding */
     background-color: orange; /* Button color */
-    color: white;  /* Text color */
+    color: lightgray;  /* Text color */
     font-size: 18px;  /* Font size */
     font-weight: bold;
     text-decoration: none; /* Remove underline */
