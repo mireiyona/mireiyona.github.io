@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+Font-family: arial;
+margin-top: auto;
+margin-bottom: auto;
+font-size: 15px;
+}
+
+.header {
+    background-color: lightgray;
+padding: 20px 0;
+position: relative;
+bottom: 0;
+}
+
+body{
+    Font-family: Helverica, Arial;
+    margin-bottom: auto;
+    margin-top: auto;
+    }
+
+.container{
+    background-color: white;
+    width:100%;
+    height:200px;
+}
+
+.logo img  {
+display:block;
+width:250px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/* Navigation Bar Styles */
+.navbar {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    display: flex;
+    gap: 20px;
+    display: flex;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: lighter;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: orange; /* Change color on hover */
+}
+
+.nav-item:active {
+    color: #0056b3; /* Slightly darker color when clicked */
+}
+
+
+
+/* Style for the image buttons */
+.image-button {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    display: flex;
+    gap: 10px;  /* Space between buttons */
+}
+
+/* Style for each image */
+.image-button img {
+    width: 150px;  /* Set the size of the image buttons */
+    height: auto;
+    border: none;
+    cursor: pointer;
+}
+
+/* Optional: Hover effect */
+.image-button img:hover {
+    opacity: 0.8;  /* Slight transparency effect when hovered */
+}
+
+/* Position for the second image button */
+.image-button:nth-child(2) {
+    right: 40px;  /* Adjust right position to space the buttons */
+}
+
+
+
+
+.slider img {
+display:block;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.slider {
+background-color: yellowgreen;
+  float: center;
+  width: 100%;
+  padding: 0px;
+　height:auto;
+}
+
+/* Quadrilateral Button */
+.order-button {
+    position: absolute;
+    top: 350px;    /* Position from the top of the image */
+    left: 50%;    /* Center the button horizontally */
+    transform: translateX(-50%); /* Exactly center the button */
+    padding: 15px 25px;  /* Button padding */
+    background-color: green; /* Button color */
+    color: white;  /* Text color */
+    font-size: 18px;  /* Font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+    display: block;
+    border: 3px solid green; /* Border color for the quadrilateral edges */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Create the quadrilateral shape */
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Hover effect for the button */
+.order-button:hover {
+    background-color: lightcyan; /* Change button color on hover */
+    transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Active effect when the button is clicked */
+.order-button:active {
+    transform: translateX(-50%) scale(0.95); /* Shrink the button slightly when clicked */
+}
+
+
+
+
+.container {
+    display: flex;
+    
+    width: 100%; /* Or any specific width you prefer */
+    height: 100%; /* Adjust the height of the container */
+    
+}
+
+.half {
+    width: auto; /* Each div takes half of the container */
+    height: auto;
+    position: relative;
+}
+
+
+
+.halfleft img{
+    height:408px;
+}
+
+.halfright img{
+    height:408px;
+    width:612px;
+}
+
+
+
+
+   /* 50% right white */
+.halfright {
+    background: yellow;
+    width:50%;
+}
+
+.halfleft{
+    
+   /* 50% left white */
+    background: orange 60%; 
+    width:50%;
+    height:auto;
+}
+
+
+
+
+/* Footer styling */
+.footer {
+    background-color: lightgray;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-left {
+    font-size: 14px;
+}
+
+.footer-right .social-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right .social-links li {
+    display: inline-block;
+}
+
+.footer-right .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-right .social-links a:hover {
+    color: #3498db; /* Highlight color on hover */
+}
+
+.ingredients-button {
+    position: absolute;
+    top: 800px;    /* Position from the top of the image */
+    left: 25%;    /* Center the button horizontally */
+    transform: translateX(-50%); /* Exactly center the button */
+    padding: 15px 25px;  /* Button padding */
+    background-color: orange; /* Button color */
+    color: white;  /* Text color */
+    font-size: 18px;  /* Font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+    display: block;
+    border: 3px solid orange; /* Border color for the quadrilateral edges */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Create the quadrilateral shape */
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.ingredients-button:hover {
+    background-color: lightcyan; /* Change button color on hover */
+    transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Active effect when the button is clicked */
+.ingredients-button:active {
+    transform: translateX(-50%) scale(0.95); /* Shrink the button slightly when clicked */
+}
+
+
+.reviews-button {
+    position: absolute;
+    top: 800px;    /* Position from the top of the image */
+    left: 75%;    /* Center the button horizontally */
+    transform: translateX(-50%); /* Exactly center the button */
+    padding: 15px 25px;  /* Button padding */
+    background-color: yellow; /* Button color */
+    color: lightgray;  /* Text color */
+    font-size: 18px;  /* Font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+    display: block;
+    border: 3px solid yellow; /* Border color for the quadrilateral edges */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Create the quadrilateral shape */
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.reviews-button:hover {
+    background-color: lightcyan; /* Change button color on hover */
+    transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Active effect when the button is clicked */
+.reviews-button:active {
+    transform: translateX(-50%) scale(0.95); /* Shrink the button slightly when clicked */
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right .social-links {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
