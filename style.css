@@ -117,6 +117,7 @@ background-color: yellowgreen;
     transform: translateX(-50%); /* Exactly center the button */
     padding: 15px 25px;  /* Button padding */
     background-color: green; /* Button color */
+    opacity: .8;
     color: lightgray;  /* Text color */
     font-size: 18px;  /* Font size */
     font-weight: bold;
@@ -244,6 +245,7 @@ background-color: yellowgreen;
     text-align: center;
     display: block;
     border: 3px solid orange; /* Border color for the quadrilateral edges */
+    opacity: .7;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Create the quadrilateral shape */
     transition: all 0.3s ease;
     border-radius: 10px;
@@ -274,6 +276,7 @@ background-color: yellowgreen;
     text-align: center;
     display: block;
     border: 3px solid yellow; /* Border color for the quadrilateral edges */
+    opacity: .7;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Create the quadrilateral shape */
     transition: all 0.3s ease;
     border-radius: 10px;
