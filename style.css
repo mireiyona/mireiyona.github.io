@@ -233,7 +233,7 @@ background-color: yellowgreen;
 
 .ingredients-button {
     position: absolute;
-    top: 1500px;    /* Position from the top of the image */
+    top: 1000px;    /* Position from the top of the image */
     left: 25%;    /* Center the button horizontally */
     transform: translateX(-50%); /* Exactly center the button */
     background-color: orange; /* Button color */
@@ -263,7 +263,7 @@ background-color: yellowgreen;
 
 .reviews-button {
     position: absolute;
-    top: 1500px;    /* Position from the top of the image */
+    top: 1000px;    /* Position from the top of the image */
     left: 75%;    /* Center the button horizontally */
     transform: translateX(-50%); /* Exactly center the button */
     background-color: yellow; /* Button color */
