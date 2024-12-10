@@ -233,10 +233,9 @@ background-color: yellowgreen;
 
 .ingredients-button {
     position: absolute;
-    top: 1200px;    /* Position from the top of the image */
+    top: 1500px;    /* Position from the top of the image */
     left: 25%;    /* Center the button horizontally */
     transform: translateX(-50%); /* Exactly center the button */
-    padding: 15px 25px;  /* Button padding */
     background-color: orange; /* Button color */
     color: lightgray;  /* Text color */
     font-size: 18px;  /* Font size */
@@ -264,10 +263,9 @@ background-color: yellowgreen;
 
 .reviews-button {
     position: absolute;
-    top: 1200px;    /* Position from the top of the image */
+    top: 1500px;    /* Position from the top of the image */
     left: 75%;    /* Center the button horizontally */
     transform: translateX(-50%); /* Exactly center the button */
-    padding: 15px 25px;  /* Button padding */
     background-color: yellow; /* Button color */
     color: lightgray;  /* Text color */
     font-size: 18px;  /* Font size */
