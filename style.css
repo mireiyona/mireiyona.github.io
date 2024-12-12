@@ -36,6 +36,17 @@ margin-right: auto;
 
 
 
+/* Optional: Hover effect */
+.logo-button img:hover {
+    opacity: 0.8;  /* Slight transparency effect when hovered */
+}
+
+/* Position for the second image button */
+.logo-button:nth-child(2) {
+    right: 30px;  /* Adjust right position to space the buttons */
+}
+
+
 /* Navigation Bar Styles */
 .navbar {
     position: absolute;
