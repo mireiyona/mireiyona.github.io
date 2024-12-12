@@ -62,8 +62,11 @@ margin-right: auto;
     color: #333;
     font-size: 18px;
     font-weight: lighter;
-    transition: color 0.3s ease;
+    transition: color ease;
+
 }
+
+
 
 .nav-item:hover {
     color: orange; /* Change color on hover */
