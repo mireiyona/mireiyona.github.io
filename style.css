@@ -55,15 +55,17 @@ margin-right: auto;
     display: flex;
     gap: 20px;
     display: flex;
+
+}
+
 }
 
 .nav-item {
     text-decoration: none;
     color: #333;
+    background-color: #4CAF50; /* Green color when on the "home" page */
     font-size: 18px;
     font-weight: lighter;
-    transition: color ease;
-
 }
 
 
